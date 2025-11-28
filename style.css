@@ -1,0 +1,83 @@
+body {
+    background: #ffe6f2;
+    font-family: "Comic Sans MS", cursive;
+    text-align: center;
+}
+
+.title {
+    color: #ff4da6;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff0f6;
+    border: 2px solid #ff99cc;
+    padding: 15px;
+    border-radius: 18px;
+    width: 180px;
+}
+
+.btn, .cart-btn, .btn2 {
+    display: inline-block;
+    background: #ff66b3;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.btn2 {
+    background: #b30059;
+}
+
+.table {
+    margin: 20px auto;
+    width: 80%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.form input, .form textarea, .form select {
+    width: 80%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 2px solid #ff99cc;
+    border-radius: 10px;
+}
+.form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #d63384;
+}
+
+input, textarea {
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #ff99cc;
+    border-radius: 10px;
+    outline: none;
+}
+
+textarea {
+    min-height: 80px;
+}
